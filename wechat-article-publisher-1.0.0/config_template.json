@@ -1,0 +1,20 @@
+{
+  "wechat": {
+    "appid": "你的公众号AppID",
+    "appsecret": "你的公众号AppSecret",
+    "comment": "从公众号后台获取：开发 → 基本配置"
+  },
+  "paths": {
+    "articles": "articles/",
+    "logs": "logs/"
+  },
+  "schedule": {
+    "ask_topic_time": "09:00",
+    "timeout_hours": 2
+  },
+  "notification": {
+    "enabled": true,
+    "on_complete": true,
+    "on_error": true
+  }
+}
